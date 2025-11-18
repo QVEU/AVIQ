@@ -1,6 +1,6 @@
 # High-throughput-Flavivirus-Phenotyping
 
-# Automated Focus-Forming Assay (FFA) Workflow on Opentrons OT-2 & Flex
+## Automated Focus-Forming Assay (FFA) Workflow on Opentrons OT-2 & Flex
 
 ## Overview
 
