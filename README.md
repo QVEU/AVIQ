@@ -13,6 +13,7 @@ The project implements a fully automated focus-forming assay (FFA) workflow for 
 This repository contains Python protocols for running portions (or the full workflow) of our assay on **Opentrons OT-2** and **Opentrons Flex**, plus **R scripts** used for downstream data processing/plots.
 
 The protocols are organized by robot and workflow step:
+
 - **Serial dilution**
 - **Fix**
 - **Stain**
@@ -28,7 +29,7 @@ Each workflow step includes versions for **1–4 plates**.
 - Flex
 
 ### 2)Choose workflow step
--Serial Dilution
+- Serial Dilution
 - Fix
 - Stain
 - Full protocol
@@ -42,11 +43,6 @@ Inside each workflow step folder you’ll find plate-count-specific subfolders f
 Open the folder for your selection and download the Python protocol (.py).
 
 [Tip] Name your downloaded file with date + operator initials (e.g., 2026-02-09_LG_ot2_full_3plates.py) to keep runs traceable.
-
-### Running a Protocol in the Opentrons App (OT-2 or Flex)
-Step 1 — Open the Opentrons App
-
-Launch the Opentrons App on your computer.
 
 ## Running a Protocol in the Opentrons App (OT-2 or Flex)
 
