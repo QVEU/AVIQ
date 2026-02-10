@@ -1,7 +1,5 @@
 # High-throughput-Flavivirus-Phenotyping
 
-## Automated Focus-Forming Assay (FFA) Workflow on Opentrons OT-2 & Flex
-
 **QVEU | NIH/NIAID — Hi-FIVE Companion Repository**
 
 This repository contains Python protocols for running portions (or the full workflow) of our assay on **Opentrons OT-2** and **Opentrons Flex**, plus **R scripts** used for downstream data processing/plots.
