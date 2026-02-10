@@ -42,7 +42,7 @@ Inside each workflow step folder you’ll find plate-count-specific subfolders f
 
 Open the folder for your selection and download the Python protocol (.py).
 
-[Tip] Name your downloaded file with date + operator initials (e.g., 2026-02-09_LG_ot2_full_3plates.py) to keep runs traceable.
+> [Tip] Name your downloaded file with date + operator initials (e.g., 2026-02-09_LG_ot2_full_3plates.py) to keep runs traceable.
 
 ## Running a Protocol in the Opentrons App (OT-2 or Flex)
 
@@ -58,7 +58,7 @@ Ensure robot is on the same network (Ethernet/Wi-Fi as appropriate).
 
 In the Opentrons App, select your robot from the device list.
 
-[Note] If the robot doesn’t appear, verify network connection and that the robot is fully booted.
+> [Note] If the robot doesn’t appear, verify network connection and that the robot is fully booted.
 
 ### Step 3 — Upload the protocol
 
@@ -90,7 +90,7 @@ Labware offset calibration
 
 Deck calibration (especially after service/moves)
 
-[Tip] If you recently swapped pipettes or moved the robot, re-check calibration before running anything with plates!!!
+> [Tip] If you recently swapped pipettes or moved the robot, re-check calibration before running anything with plates!!!
 
 ### Step 6 — Start the run
 
@@ -100,4 +100,4 @@ Click Run.
 
 Monitor the first ~5 minutes closely.
 
-[Common pitfall] Most avoidable errors happen early (wrong tip rack, wrong reservoir well, plate flipped orientation, etc.).
+> [Tip] Most avoidable errors happen early (wrong tip rack, wrong reservoir well, plate flipped orientation, etc.).
