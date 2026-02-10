@@ -10,6 +10,7 @@ The protocols are organized by robot and workflow step:
 - **Fix**
 - **Stain**
 - **Full protocol**
+
 Each workflow step includes versions for **1–4 plates**.
 
 > [Note] These protocols are intended for research use in a controlled laboratory setting. Always verify deck layout, labware, volumes, and pipetting parameters before running on a live robot.
@@ -40,27 +41,27 @@ Open the folder for your selection and download the Python protocol (.py).
 
 ### 1) Open the Opentrons App
 
-Launch the Opentrons App on your computer.
+- Launch the Opentrons App on your computer.
 
 ### 2) Connect to the robot
 
-Power on robot.
+- Power on robot.
 
-Ensure robot is on the same network (Ethernet/Wi-Fi as appropriate).
+- Ensure robot is on the same network (Ethernet/Wi-Fi as appropriate).
 
-In the Opentrons App, select your robot from the device list.
+- In the Opentrons App, select your robot from the device list.
 
 > [Note] If the robot doesn’t appear, verify network connection and that the robot is fully booted.
 
 ### 3) Upload the protocol
 
-In the Opentrons App, select Protocols (or the equivalent tab).
+- In the Opentrons App, select Protocols.
 
-Click Upload and choose the .py protocol you downloaded.
+- Click Upload and choose the .py protocol you downloaded.
 
 ### 4) Review the deck layout
 
-The App will display the deck map / labware placements.
+- The App will display the deck map / labware placements.
 
 Confirm every item matches your physical setup:
 
@@ -72,24 +73,24 @@ Confirm every item matches your physical setup:
 
 ### 5) Confirm pipettes and calibrations
 
-Verify installed pipettes match the protocol’s expectations.
+- Verify installed pipettes match the protocol’s expectations.
 
-Confirm calibration status:
+- Confirm calibration status:
 
-Pipette calibration
+- Pipette calibration
 
-Labware offset calibration
+- Labware offset calibration
 
-Deck calibration (especially after service/moves)
+- Deck calibration (especially after service/moves)
 
 > [Tip] If you recently swapped pipettes or moved the robot, re-check calibration before running anything with plates!!!
 
 ### 6) Start the run
 
-Load reagents as prompted.
+- Load reagents as prompted.
 
-Click Run.
+- Click Run.
 
-Monitor the first ~5 minutes closely.
+- Monitor the first ~5 minutes closely.
 
 > [Tip] Most avoidable errors happen early (wrong tip rack, wrong reservoir well, plate flipped orientation, etc.).
