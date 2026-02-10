@@ -21,7 +21,7 @@ Each workflow step includes versions for **1–4 plates**.
 
 > [Note] These protocols are intended for research use in a controlled laboratory setting. Always verify deck layout, labware, volumes, and pipetting parameters before running on a live robot.
 
-## Quick Start (Download the Protocols)
+## Downloading the Protocols
 
 ### 1)Choose robot
 - OT-2
@@ -47,3 +47,61 @@ Open the folder for your selection and download the Python protocol (.py).
 Step 1 — Open the Opentrons App
 
 Launch the Opentrons App on your computer.
+
+## Running a Protocol in the Opentrons App (OT-2 or Flex)
+
+### Step 1 — Open the Opentrons App
+
+Launch the Opentrons App on your computer.
+
+### Step 2 — Connect to the robot
+
+Power on robot.
+
+Ensure robot is on the same network (Ethernet/Wi-Fi as appropriate).
+
+In the Opentrons App, select your robot from the device list.
+
+[Note] If the robot doesn’t appear, verify network connection and that the robot is fully booted.
+
+### Step 3 — Upload the protocol
+
+In the Opentrons App, select Protocols (or the equivalent tab).
+
+Click Upload and choose the .py protocol you downloaded.
+
+### Step 4 — Review the deck layout
+
+The App will display the deck map / labware placements.
+
+Confirm every item matches your physical setup:
+
+- Plates (type + position)
+
+- Reservoirs
+
+- Tip racks
+
+### Step 5 — Confirm pipettes and calibrations
+
+Verify installed pipettes match the protocol’s expectations.
+
+Confirm calibration status:
+
+Pipette calibration
+
+Labware offset calibration
+
+Deck calibration (especially after service/moves)
+
+[Tip] If you recently swapped pipettes or moved the robot, re-check calibration before running anything with plates!!!
+
+### Step 6 — Start the run
+
+Load reagents as prompted.
+
+Click Run.
+
+Monitor the first ~5 minutes closely.
+
+[Common pitfall] Most avoidable errors happen early (wrong tip rack, wrong reservoir well, plate flipped orientation, etc.).
