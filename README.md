@@ -18,21 +18,21 @@ Each workflow step includes versions for **1–4 plates**.
 
 ## Downloading the Protocols
 
-### 1)Choose robot
+### 1) Choose robot
 - OT-2
 - Flex
 
-### 2)Choose workflow step
+### 2) Choose workflow step
 - Serial Dilution
 - Fix
 - Stain
 - Full protocol
 
-### 3)Choose plate count (1–4 plates)
+### 3) Choose plate count (1–4 plates)
 
 Inside each workflow step folder you’ll find plate-count-specific subfolders for 1_plate through 4_plates.
 
-### 4)Download the .py file
+### 4) Download the .py file
 
 Open the folder for your selection and download the Python protocol (.py).
 
@@ -40,11 +40,11 @@ Open the folder for your selection and download the Python protocol (.py).
 
 ## Running a Protocol in the Opentrons App (OT-2 or Flex)
 
-### Step 1 — Open the Opentrons App
+### 1) Open the Opentrons App
 
 Launch the Opentrons App on your computer.
 
-### Step 2 — Connect to the robot
+### 2) Connect to the robot
 
 Power on robot.
 
@@ -54,13 +54,13 @@ In the Opentrons App, select your robot from the device list.
 
 > [Note] If the robot doesn’t appear, verify network connection and that the robot is fully booted.
 
-### Step 3 — Upload the protocol
+### 3) Upload the protocol
 
 In the Opentrons App, select Protocols (or the equivalent tab).
 
 Click Upload and choose the .py protocol you downloaded.
 
-### Step 4 — Review the deck layout
+### 4) Review the deck layout
 
 The App will display the deck map / labware placements.
 
@@ -72,7 +72,7 @@ Confirm every item matches your physical setup:
 
 - Tip racks
 
-### Step 5 — Confirm pipettes and calibrations
+### 5) Confirm pipettes and calibrations
 
 Verify installed pipettes match the protocol’s expectations.
 
@@ -86,7 +86,7 @@ Deck calibration (especially after service/moves)
 
 > [Tip] If you recently swapped pipettes or moved the robot, re-check calibration before running anything with plates!!!
 
-### Step 6 — Start the run
+### 6) Start the run
 
 Load reagents as prompted.
 
