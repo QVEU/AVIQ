@@ -73,7 +73,7 @@ Confirm every item matches your physical setup:
 
 ### 5) Confirm pipettes and calibrations
 
-- Verify installed pipettes match the protocol’s expectations.
+- Verify installed pipettes match the protocol’s.
 
 - Confirm calibration status:
 
