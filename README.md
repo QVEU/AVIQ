@@ -1,6 +1,6 @@
-# Automated Virus Infectivity Quantification
+# Automated Liquid handling Infection Quantification Using OpenTrons (ALIQUOT)
 
-**QVEU | NIH/NIAID — AVIQ Repository**
+**QVEU | NIH/NIAID — ALIQUOT Repository**
 
 This repository contains Python protocols for running portions (or the full workflow) of our assay on **Opentrons OT-2** and **Opentrons Flex**, plus **R scripts** used for downstream data processing/plots.
 
